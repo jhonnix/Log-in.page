@@ -1,0 +1,22 @@
+body{
+    background-color: gray;
+}
+
+.logo{
+    width: 25%;
+    border-radius: 50%;
+}
+
+.head-a{
+    margin: 5%;
+    padding: 10%;
+}
+
+.head{
+    display: flex;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+}
