@@ -1,15 +1,32 @@
-body{
-    background-color: gray;
-}
 
+/*this part here is the header*/
+body{
+    background-image:url("pic.img/back-ground-design.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
 .logo{
     width: 25%;
     border-radius: 50%;
 }
 
 .head-a{
-    margin: 5%;
-    padding: 10%;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration-line: none;
+}
+.head-btn{
+    border-radius: 25%;
+    background-color: transparent;
+    color: rgb(39, 153, 22);
+    width: 100px;
+    padding: 20px;
+    font-size: larger;
+    border-color: rgb(39, 153, 22);
+}
+.head-btn:hover{
+    background-color:  rgb(2, 6, 2);
 }
 
 .head{
@@ -20,3 +37,5 @@ body{
 header{
     display: flex;
 }
+
+/*login part of css*/
