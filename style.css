@@ -24,6 +24,7 @@ body{
     padding: 20px;
     font-size: larger;
     border-color: rgb(39, 153, 22);
+    opacity: 0.8;
 }
 .head-btn:hover{
     background-color:  rgb(2, 6, 2);
@@ -38,4 +39,35 @@ header{
     display: flex;
 }
 
-/*login part of css*/
+/*login part of css footer*/
+
+.cent{
+    background-color: white;
+    opacity: 0.8;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.text-box{
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+.remember , .forget{
+    margin: 10px;
+}
+.foot-btn{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(23, 17, 17);
+    color: white;
+    font-size: large;
+}
