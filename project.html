@@ -28,19 +28,22 @@
                     <h1>Login</h1>
                 </div>
                 <div>
-                    <input class="text-box" type="text" id="useremail" placeholder="Enter useremail" src="pic.img/8666723_mail_icon.png">
+                    <div id="error-message" style="color: red"></div>
+                    <input class="text-box" type="text" id="email" placeholder="Enter email" required>
                     <dir></dir>
-                    <input class="text-box"  type="text" id="password" placeholder="Enter password">
+                    <div id="error-message" style="color: red"></div>
+                    <input class="text-box" type="password" id="password" placeholder="Enter password" required>
                     <dir></dir>
                     <div>
                         <input class="remember" type="checkbox" id="remember"><label for="remember">Remember me</label>
                         <a class="forget" href="wa">Forget Password?</a>
                     </div>
                 </div>
-                <button class="foot-btn">Login</button>
+                <button class="foot-btn" type="submit" onclick="btn()">Login</button>
                 <p>Don't have an account?<a href="aw">Register</a></p>
             </main>
         </center>
     </footer>
 </body>
+<script src="index.js"></script>
 </html>
