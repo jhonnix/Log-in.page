@@ -1,4 +1,4 @@
-function btn(){
+/*function btn(){
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
     let errorMessage = document.getElementById("error-message");
@@ -12,4 +12,8 @@ function btn(){
     } else {
         errorMessage.textContent("email or password is incorrect!");
     };
-};
+};*/
+
+function btn(){
+    
+}
